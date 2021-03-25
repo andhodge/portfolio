@@ -4,10 +4,11 @@ body{
     font-size: 16pt;
     font-family: 'Raleway', sans-serif;
     color: #00274C;
+    text-align: center;
+    background-color: #f4f4f4;
   }
   
   header{
-    background: #fff;
     border-bottom: 3px solid #38B09D;
     display: flex;
     flex-direction: column;
@@ -33,6 +34,11 @@ body{
     transition: top 1s ease-out;
     z-index: 1;
   }
+
+  #logo{
+      max-width: 90%;
+      max-height: 150px;
+  }
   
   a.skip:focus{
     top:20px;
@@ -40,16 +46,49 @@ body{
     text-decoration-style: solid;
   }
 
+  #driver_predictions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+#team_predictions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+}
+
   .driver{
       border: 4px solid #38B09D;
       margin-top: 10px;
       margin-bottom: 10px;
+      background-color: white;
   }
 
   .team{
     border: 4px solid #38B09D;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: white;
+}
+
+  .even{
+    grid-column: 2 / span 6;
+}
+
+.odd{
+    grid-column: 1 / span 6;
+}
+
+.sport{
+    border: 4px solid #38B09D;
+    margin-bottom: 20px;
+}
+
+#overview{
+    border-bottom: 4px solid #38B09D;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .team p{
@@ -69,12 +108,12 @@ body{
       border: 4px solid #b87333;
   }
 
-  .driver p{
-      padding-left: 10px;
-      padding-right: 10px;
+  div p{
+      padding-top: 20px;
+      padding-left: 5%;
+      padding-right: 5%;
   }
 
-  
   div{
      margin: 0 auto; 
 }
@@ -95,4 +134,5 @@ body{
     padding: 30px;
     text-align: center;
     border: 6px solid #38B09D;
+    margin-top: 50px;
   }
