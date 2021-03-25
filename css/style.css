@@ -2,14 +2,14 @@ body{
     margin: auto;    
     padding: 25px;
     font-size: 16pt;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #00274C;
     text-align: center;
     background-color: #f4f4f4;
   }
   
   header{
-    border-bottom: 3px solid #38B09D;
+    border-bottom: 4px solid #38B09D;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,9 +80,49 @@ body{
     grid-column: 1 / span 6;
 }
 
+#sports{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .sport{
+    flex-basis: 200px;
     border: 4px solid #38B09D;
     margin-bottom: 20px;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+#divisions{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.division{
+    flex-basis: 200px;
+    border: 4px solid #38B09D;
+    margin-bottom: 20px;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+}
+
+#pennants{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.pennant{
+    flex-basis: 200px;
+    border: 4px solid #38B09D;
+    margin-bottom: 20px;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
 }
 
 #overview{
@@ -91,10 +131,21 @@ body{
     padding-bottom: 20px;
 }
 
+#ws_team{
+    border: 4px solid #38B09D;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
 .team p{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.sport_logo{
+    margin-bottom: 25px;
+}
+
 
   #champion{
       border: 4px solid #FFCB05;
@@ -119,6 +170,8 @@ body{
 }
   div header{
       border-bottom: none;
+      margin-left: 5%;
+      margin-right: 5%;
   }
 
   div img{
@@ -133,6 +186,33 @@ body{
     color: black;
     padding: 30px;
     text-align: center;
-    border: 6px solid #38B09D;
+    border: 4px solid #38B09D;
     margin-top: 50px;
+  }
+
+  .team_logo, .league_logo{
+      max-width: 60%;
+      min-width: 60%;
+  }
+
+  #twins{
+      min-width: 100%;
+      max-width: 100%;
+  }
+
+  .league_logo{
+    margin-bottom: 30px;
+  }
+
+  .league_pics{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      flex-basis: 200px;
+      flex-grow: 0;
+  }
+
+  #ws_logo{
+      max-width: 80%;
+      min-width: 80%;
   }
