@@ -35,6 +35,17 @@ body{
     z-index: 1;
   }
 
+
+  #current_page a{
+      color: #38B09D;
+      font-size: 24pt;
+  }
+
+  #current_page a:visited{
+    color: #38B09D;
+    font-size: 24pt;
+}
+
   #logo{
       max-width: 90%;
       max-height: 150px;
@@ -126,8 +137,8 @@ body{
 }
 
 #overview{
-    border-bottom: 4px solid #38B09D;
-    padding-top: 20px;
+    border-top: 4px solid #38B09D;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -201,7 +212,7 @@ body{
   }
 
   .league_logo{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   .league_pics{
