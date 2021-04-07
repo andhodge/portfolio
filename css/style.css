@@ -206,6 +206,12 @@ body{
     margin-top: 50px;
   }
 
+  footer p{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+
   .team_logo, .league_logo{
       max-width: 60%;
       min-width: 60%;
