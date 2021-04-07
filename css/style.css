@@ -256,6 +256,7 @@ body{
 
     div p{
       padding-top: 0px;
+      font-size: 16pt;
     }
   
     .league_logo{
@@ -279,4 +280,27 @@ body{
     .odd{
       grid-column: 1 / span 5;
     }
+
+    body{
+      font-size: 20pt;
+    }
+
+    .nav_links{
+      font-size: 24pt;
+    }
+
+    #current_page a:visited{
+      color: #005A9C;
+      font-size: 28pt;
+    }
+
+  #current_page a:visited{
+    color: #005A9C;
+    font-size: 28pt;
+  }
+
+  header h3{
+    font-size: 24pt;
+  }
+
   }
