@@ -229,11 +229,54 @@ body{
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      flex-basis: 200px;
-      flex-grow: 0;
   }
 
-  #ws_logo{
-      max-width: 80%;
-      min-width: 80%;
+
+
+
+  @media screen and (min-width: 500px){
+
+    header{
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .league_pics{
+      flex-direction: row;
+    }
+
+    .league_pics img{
+      max-width: 300px;
+      min-width: 250px;
+      align-self: stretch;
+
+    }
+
+    div p{
+      padding-top: 0px;
+    }
+  
+    .league_logo{
+      margin-bottom: 0px;
+    }
+  
+    .sport_logo{
+      margin-bottom: 0px;
+    }
+
+    .league_logo, .team_logo, .team_img, .driver_img{
+      max-height: 250px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .even{
+      grid-column: 3 / span 5;
+    }
+  
+    .odd{
+      grid-column: 1 / span 5;
+    }
   }
