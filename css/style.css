@@ -303,4 +303,8 @@ body{
     font-size: 24pt;
   }
 
+  a.skip{
+    top: -50px;
+  }
+
   }
