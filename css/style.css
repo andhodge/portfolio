@@ -290,15 +290,15 @@ body{
       font-size: 24pt;
     }
 
-    #current_page a:visited{
+    #current_page a{
       color: #005A9C;
       font-size: 28pt;
     }
 
-  #current_page a:visited{
-    color: #005A9C;
-    font-size: 28pt;
-  }
+    #current_page a:visited{
+      color: #005A9C;
+      font-size: 28pt;
+    }
 
   header h3{
     font-size: 24pt;
