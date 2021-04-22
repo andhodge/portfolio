@@ -336,7 +336,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;    
+    justify-content: flex-end;  
+    font-size: 28pt;  
   }
 
     nav ul li{
@@ -390,6 +391,17 @@ body{
       max-width: 400px;
       min-width: 0;
     }
+
+
+    #current_page a{
+      font-size: 34pt;
+    }
+
+    #current_page a:visited{
+      font-size: 34pt;
+    }
+
+
 
   }
 
