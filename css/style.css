@@ -309,3 +309,94 @@ body{
   }
 
   }
+
+  @media all and (min-width: 880px){
+
+    #logo{
+      flex-grow: 0;
+    }
+
+  body header{
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-wrap: nowrap;
+  }
+
+  main div{
+    max-width: 95%;
+  }
+
+  nav{
+    flex-grow: 1;
+  }
+
+  .nav_links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+  }
+
+    nav ul li{
+      margin-left: 30px;
+    }
+
+    .even{
+      grid-column: 4 / span 4;
+    }
+  
+    .odd{
+      grid-column: 1 / span 4;
+    }
+
+    .league_logo, .team_img, .driver_img{
+      max-height: 350px;
+    }
+
+    div header{
+      display: inline-block;
+      padding: 0;
+    }
+
+    header h3{
+      text-align: center;
+      font-size: 28pt;
+    }
+
+    body{
+      font-size: 20pt;
+    }
+
+    .league_pics img{
+      max-width: 400px;
+      min-width: 450px;
+      align-self: center;
+    }
+
+    .team_logo{
+      max-height: 300px;
+      max-width: 400px;
+    }
+
+    .pennant div img{
+      max-width: 400px;
+      min-width: 0;
+    }
+
+    
+    #ws div img{
+      max-width: 400px;
+      min-width: 0;
+    }
+
+  }
+
+
+  @media screen and (prefers-reduced-motion: reduce){
+    #logo{
+      -webkit-animation: none; 
+      animation: none;       
+     }
+  }
